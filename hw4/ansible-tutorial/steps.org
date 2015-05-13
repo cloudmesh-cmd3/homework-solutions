@@ -1,0 +1,4 @@
+* import the key for MongoDB repo into apt
+* add the MongoDB repo
+* install MongoDB
+* start MongoDB
