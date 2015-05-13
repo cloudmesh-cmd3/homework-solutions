@@ -50,7 +50,10 @@ cd cloudmesh
 fab india.configure
 
 
-# "fab mongo.reset" wrapped with expect to set password
+# "fab mongo.reset" wrapped with expect to set password students DO
+# NOT NEED expect! this is just to automate also, the password is
+# hardcoded here, but this SHOULD NOT be done for a real setup
+
 sudo apt-get install -y expect
 expect - <<EOS
 set timeout -1
